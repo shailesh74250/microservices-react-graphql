@@ -1,0 +1,29 @@
+dependencies 
+@babel/core @babel/polyfill @babel/preset-env babel-plugin-module-resolver
+
+dev-dependencies are 
+babel-watch
+
+what is babel 
+-> Babel is a JavaScript transpiler that converts edge JavaScript
+ into plain old ES5 JavaScript that can run in any browser (even the old ones).
+  It makes available all the syntactical sugar that was added to JavaScript with
+   the new ES6 specification, including classes, fat arrows and multiline strings.
+
+what is webpack ?
+Webpack is a tool that lets you compile JavaScript modules,
+ also known as module bundler. Given a large number of files,
+  it generates a single file (or a few files) that run your app. 
+  It can perform many operations: helps you bundle your resources.
+   ... allows you to use require() for CSS files.
+
+Webpack is a static module bundler for JavaScript applications — it takes 
+all the code from your application and makes it usable in a web browser.
+ Modules are reusable chunks of code built from your app's JavaScript,
+  node_modules, images, and the CSS styles which are packaged to be easily 
+  used in your website.
+
+Dockerfile is specifically for our one service 
+so each service will have Dockerfile file 
+
+and for all services we going to use docker composer file 
